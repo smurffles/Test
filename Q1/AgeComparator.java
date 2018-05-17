@@ -16,7 +16,8 @@ public class AgeComparator implements Comparator<Employee> {
     @Override
     public int compare(Employee emp1, Employee emp2) {
        if(emp1.getAge()> emp2.getAge()){
-            return 1;
+            return 1
+                //return;
         } else {
             return -1;
         }
